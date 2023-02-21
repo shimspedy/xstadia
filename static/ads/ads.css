@@ -1,0 +1,13 @@
+#adTakeoverHolder{ display:none; position:fixed; background:rgba(0, 0, 0, 0.7); z-index:5000; }
+#adTakeoverContent{ position:relative; }
+#adTakeoverClose{ color:#FFF; font-size:11px; position:absolute; top: 10px; right: 10px; cursor:pointer; }
+
+#adHolder{ position:fixed; pointer-events: none; width: 1280px; height: 768px; }
+#adLeft{ position:absolute; width: 128px; height: 576px; pointer-events: auto; }
+#adRight{ position:absolute; right:0; width: 128px; height: 576px; pointer-events: auto; }
+#adBottom{ position:absolute; bottom:0; width: 1024px; height: 96px; pointer-events: auto; }
+
+#adSideLeft{ position:absolute; width: 250px; height: 576px; pointer-events: auto; left: -250px; }
+#adSideRight{ position:absolute; width: 250px; height: 576px; pointer-events: auto; right: -250px; }
+
+.adsGuide{ border: #FFF solid 1px; }
